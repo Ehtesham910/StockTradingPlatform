@@ -5,8 +5,8 @@ function Footer() {
     <footer>
       <div className="conatiner p-5 mt-5">
         <div className="row p-5">
-          <div className="col-lg-4 col-sm-12">
-            <img src="media/logo.svg" className="brand-logo" alt="Logo" />
+          <div className="col">
+            <img src="media/logo.svg" style={{ width: "80%" }} alt="Logo" />
             <p className="mt-3 small">
               © 2010 - 2026, Zerodha Broking Ltd. <br />
               All rights reserved.
