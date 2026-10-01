@@ -2,7 +2,7 @@ import React from 'react';
 
 function RightSection() {
     return ( 
-        <RightSection />
+        <><h1>RightSection</h1></>
      );
 }
 

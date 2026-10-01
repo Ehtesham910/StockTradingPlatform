@@ -2,7 +2,7 @@ import React from 'react';
 
 function Universe() {
     return ( 
-        <Universe/>
+        <><h1>Universe</h1></>
      );
 }
 
