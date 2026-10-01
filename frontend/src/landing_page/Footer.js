@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer>
-      <div className="conatiner p-5 mt-5">
-        <div className="row p-5">
-          <div className="col">
-            <img src="media/logo.svg" style={{ width: "80%" }} alt="Logo" />
+      <div className="container-fluid site-container mt-5">
+        <div className="row py-5">
+          <div className="col-lg-4 col-sm-12">
+            <img src="media/logo.svg" className="brand-logo" alt="Logo" />
             <p className="mt-3 small">
               © 2010 - 2026, Zerodha Broking Ltd. <br />
               All rights reserved.
@@ -14,17 +15,23 @@ function Footer() {
           </div>
           <div className="col">
             <h1 className="fs-5 mb-3">Company</h1>
-            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+            <Link to="/about" style={{ textDecoration: "none", color: "grey" }}>
               About
-            </a>
+            </Link>
             <br />
-            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+            <Link
+              to="/products"
+              style={{ textDecoration: "none", color: "grey" }}
+            >
               Products
-            </a>
+            </Link>
             <br />
-            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+            <Link
+              to="/pricing"
+              style={{ textDecoration: "none", color: "grey" }}
+            >
               Pricing
-            </a>
+            </Link>
             <br />
             <a href="" style={{ textDecoration: "none", color: "grey" }}>
               Referral programme
@@ -49,13 +56,19 @@ function Footer() {
           </div>
           <div className="col">
             <h1 className="fs-5 mb-3">Support</h1>
-            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+            <Link
+              to="/support"
+              style={{ textDecoration: "none", color: "grey" }}
+            >
               Contact us
-            </a>
+            </Link>
             <br />
-            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+            <Link
+              to="/support"
+              style={{ textDecoration: "none", color: "grey" }}
+            >
               Support portal
-            </a>
+            </Link>
             <br />
             <a href="" style={{ textDecoration: "none", color: "grey" }}>
               Z-Connect blog
@@ -72,9 +85,12 @@ function Footer() {
           </div>
           <div className="col">
             <h1 className="fs-5 mb-3">Account</h1>
-            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+            <Link
+              to="/signup"
+              style={{ textDecoration: "none", color: "grey" }}
+            >
               Open an account
-            </a>
+            </Link>
             <br />
             <a href="" style={{ textDecoration: "none", color: "grey" }}>
               Fund transfer
@@ -86,7 +102,7 @@ function Footer() {
             <br />
           </div>
         </div>
-        <div className="p-5 text-small text-muted ">
+        <div className="py-5 text-small text-muted ">
           <p>
             Zerodha Broking Limited: Member of NSE, BSE, MCX & MSEI – SEBI
             Registration no.: INZ000031633 CDSL/NSDL: Depository services
