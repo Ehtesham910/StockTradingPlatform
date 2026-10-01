@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Stats() {
   return (
@@ -42,10 +43,14 @@ function Stats() {
         <div className="col-lg-6 col-sm-12 p-5 mt-10">
           <img src="media/ecosystem.png" style={{ width: "100%" }} />
           <div className="text-center">
-            <a href="" className="mx-4" style={{ textDecoration: "none" }}>
+            <Link
+              to="/products"
+              className="mx-4"
+              style={{ textDecoration: "none" }}
+            >
               Explore our products{" "}
               <i className="fa-solid fa-arrow-right-long"></i>
-            </a>
+            </Link>
             <a href="" className="mx-3" style={{ textDecoration: "none" }}>
               Try Kite demo <i className="fa-solid fa-arrow-right-long"></i>
             </a>
