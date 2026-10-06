@@ -2,7 +2,7 @@ import React from 'react';
 
 function CreateTicket() {
     return ( 
-        <CreateTicket />
+        <><h1>CreateTicket</h1></>
      );
 }
 
