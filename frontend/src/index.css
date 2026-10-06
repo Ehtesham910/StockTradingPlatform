@@ -37,9 +37,13 @@ code {
 }
 
 .products-hero {
-  padding-block: 7rem 8.5rem;
+  padding-block: 6rem 8.5rem;
   border-bottom: 1px solid #eeeeee;
   text-align: center;
+}
+
+.products-hero.pricing-hero {
+  padding-top: 6rem;
 }
 
 .products-hero-title {
@@ -275,7 +279,7 @@ code {
 
 @media (max-width: 991.98px) {
   .products-hero {
-    padding-block: 5rem;
+    padding-block: 6rem 5rem;
   }
 
   .product-section {

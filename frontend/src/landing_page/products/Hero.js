@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section className="products-container products-hero text-center">
-      <h1 className="products-hero-title">Zerodha Products</h1>
+      <h1 className="fs-3 mb-4 text-center text-muted">Zerodha Products</h1>
       <p className="products-hero-subtitle">
         Sleek, modern, and intuitive trading platforms
       </p>
