@@ -343,3 +343,139 @@ code {
     padding: 0.65rem 0;
   }
 }
+
+  #supportHero {
+    padding: 0;
+    background: #1b7ed8;
+    color: #ffffff;
+  }
+
+  #supportWrapper {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 28px 12px 0 !important;
+  }
+
+  #supportWrapper h4 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  #supportWrapper a,
+  #supportHero .row a {
+    color: #eaf4ff;
+    text-decoration: none;
+  }
+
+  #supportWrapper a {
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  #supportHero > .row {
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto !important;
+    padding: 34px 12px 42px !important;
+  }
+
+  #supportHero > .row > .col-6 {
+    padding: 12px 24px !important;
+  }
+
+  #supportHero > .row > .col-6:first-child {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  #supportHero > .row > .col-6:last-child {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  #supportHero .row h1 {
+    margin: 0 0 18px;
+    color: #ffffff;
+    font-size: 2.1rem !important;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  #supportHero input {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    min-height: 58px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #424242;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
+  }
+
+  #supportHero input::placeholder {
+    color: #777777;
+    opacity: 1;
+  }
+
+  #supportHero .row br {
+    display: none;
+  }
+
+  #supportHero .row > .col-6:first-child > a {
+    display: inline-block;
+    margin: 16px 16px 0 0;
+    color: #eaf4ff;
+    font-size: 0.95rem;
+  }
+
+  #supportHero .row ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #f2f8ff;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  #supportHero .row ol li::before {
+    margin-right: 10px;
+    color: #ffffff;
+    content: "•";
+  }
+
+  #supportHero .row ol a {
+    color: #f2f8ff;
+  }
+
+  @media (max-width: 767.98px) {
+    #supportWrapper {
+      padding: 24px 20px 0 !important;
+    }
+
+    #supportHero > .row {
+      padding: 28px 12px 36px !important;
+    }
+
+    #supportHero > .row > .col-6:first-child,
+    #supportHero > .row > .col-6:last-child {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    #supportHero > .row > .col-6:last-child {
+      padding-top: 28px !important;
+    }
+
+    #supportHero .row h1 {
+      font-size: 1.75rem !important;
+    }
+  }
